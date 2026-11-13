@@ -1,16 +1,16 @@
 # 奇妙邻里开发者框架
 
-新增自主帮手、直接工作管理与通用图集动画接口，见[帮手开发](Docs/Helpers.md)。
+核心提供迎新、工作、管理和图集动画接口。Animal 帮手配置见[帮手开发](Docs/Helpers.md)。
 
 本目录可单独作为核心源码包使用，入门见[创建一个邻居扩展](Docs/QuickStart.md)。若使用组合仓库，新手完整教程在仓库根目录的 `Docs/GettingStarted.md`；本页说明核心单独构建与打包。
 
-当前版本为 `0.8.0-dev.2`，公共接入契约版本为 `2`。本目录基于正式发布的核心 `0.6.9` 整理，供第三方种族作者开发和集成验证。
+当前版本为 `0.8.0-dev.2`，API 版本为 `2`，基于工坊核心 `0.6.9` 开发。
 
 ## 从这里开始
 
 - `Docs/QuickStart.md` 说明如何创建一个独立邻居扩展并运行。
 - `Docs/PublicApi.md` 列出公共能力、配置约束、调用时机和存档契约。
-- `Docs/Quality.md` 记录审查范围、修复与验证证据。
+- `Docs/Quality.md` 记录早期版本的修复和测试结果。
 - `Source/Core` 保存迎新、岗位、命名、管理、目录与百科实现。
 - `Source/Family` 保存可选幼体外观和年龄床位规则。
 - `Examples/StarterNeighbor` 是可直接加载的纯 XML 扩展。
@@ -48,4 +48,4 @@
 
 本目录的 C#、PowerShell、项目 XML 与开发文档使用 MIT，保留 `LICENSE` 中的版权声明即可按许可复用。
 
-`Mod/Textures` 和 `Mod/About/Preview.png` 是现有框架美术，授权范围单列于 `Docs/AssetScope.md`。游戏与 Harmony 的二进制由开发者自行提供。生成的游戏测试副本和本地反编译审查材料保存在忽略目录中。
+`Mod/Textures` 和 `Mod/About/Preview.png` 是现有框架美术，授权范围单列于 `Docs/AssetScope.md`。游戏与 Harmony 的二进制由开发者自行提供。

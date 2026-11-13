@@ -16,7 +16,7 @@
 
 按照[从零运行](GettingStarted.md)分别构建核心与绒绒族。构建启用警告视为错误。游戏二进制由本地提供，不把它们上传 CI。
 
-本轮新增帮手和菜单行为，结果见[帮手验证](../NeighborCourtyardsFuzzy/Validation/HelperResults.md)。此前历史实机结果见[核心质量记录](../NeighborCourtyardsFramework/Docs/Quality.md)与[绒绒族记录](../NeighborCourtyardsFuzzy/Validation/Results.md)。原始运行目录、游戏副本与截图未随 Git 仓库提供。克隆仓库后可用下面命令生成自己的验证证据。
+帮手的历史测试结果见[帮手验证](../NeighborCourtyardsFuzzy/Validation/HelperResults.md)。此前历史实机结果见[核心质量记录](../NeighborCourtyardsFramework/Docs/Quality.md)与[绒绒族记录](../NeighborCourtyardsFuzzy/Validation/Results.md)。原始运行目录、游戏副本与截图未随 Git 仓库提供。克隆仓库后可用下面命令生成自己的验证证据。
 
 ## 自动实机验证
 
@@ -71,8 +71,8 @@ $compilerPath = 'D:/Tools/Roslyn/csc.exe'
 
 在绒绒运行命令后加 `-Helpers` 测新帮手；不加则验证保留的旧人类型绒绒。`-Language 'ChineseSimplified (简体中文)'` 从启动时选择中文，目录名以本机游戏为准；`-Width 1024 -Height 768` 检查较小窗口。测试固定 UI 缩放偏好为 1 并忽略系统 DPI 缩放，避免游戏把有效窗口尺寸降到最低要求以下。`-Biotech` 可与这些参数组合。
 
-用 `-LegacySave '<旧核心生成的 FuzzyNeighborDemo.rws>'` 验证旧人类型绒绒存档，不与 `-Helpers` 合用。种子来自旧版 FuzzyProbe 的四人存档，测试保留人物身份、床位、岗位和工作开关，再保存并读入升级后的存档。不要用新版本刚生成的存档冒充旧档验证。
+用 `-LegacySave '<旧核心生成的 FuzzyNeighborDemo.rws>'` 验证旧人类型绒绒存档，不与 `-Helpers` 合用。种子来自旧版 FuzzyProbe 的四人存档，测试保留人物身份、床位、岗位和工作开关，再保存并读入升级后的存档。旧档测试需使用修改前版本生成的存档。
 
-图片不是仅凭断言自动验收：睡床需要床位坐标匹配并已睡着；探针暂停快进时会在入床完成后同步渲染插值，避免画面滞后于真实位置。图集索引从左上按行排列；缺少动作方向时验证静态回退。
+睡床截图应在角色到达床位并睡着后检查；探针暂停快进时会在入床完成后同步渲染插值，避免画面滞后于真实位置。图集索引从左上按行排列；缺少动作方向时验证静态回退。
 
 API 比对默认严格比较所有公开声明，包括版本常量。明确升级版本时可加 `-AllowVersionChange`，仅允许 `NeighborFramework.Version` 字符串值变化，报告仍单独记录该变化；不忽略程序集身份或签名删除。

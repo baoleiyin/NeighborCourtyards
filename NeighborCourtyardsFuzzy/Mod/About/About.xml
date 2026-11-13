@@ -17,5 +17,5 @@
   <loadAfter>
     <li>local.neighborcourtyards.core</li>
   </loadAfter>
-  <description>毛茸茸的绒绒邻居。包含家务岗位、名字池、迎新灯及原生四向外观。需要奇妙邻里核心开发版 0.8.0-dev.1。</description>
+  <description>绒绒族开发示例，包含会清洁、搬运的 Animal 帮手和保留的人类型邻居。附带迎新灯、岗位和名字池。需要奇妙邻里核心开发版 0.8.0-dev.2；源码仓库中的运行图集需自行准备。</description>
 </ModMetaData>

@@ -1,13 +1,11 @@
-# 素材与第三方依赖范围
+# 素材与第三方依赖
 
-MIT 适用于本开发目录中的项目代码、脚本、项目 XML 和文档。
+项目代码、脚本、XML 和文档使用 MIT。贴图不在该许可内，也不随源码仓库分发；修改、抽取或再分发贴图需另行取得授权。
 
-`Mod/Textures` 与 `Mod/About/Preview.png` 来自现有框架发布包。本次用户确认的授权范围是代码 MIT，美术的独立修改、抽取和再分发授权仍需另行确认。当前保留这些文件供本地开发版运行验证。
+核心 UI 使用 `Mod/Textures` 下的图集，预览图为 `Mod/About/Preview.png`。开发时可运行 `Prepare-Content.ps1`，从已安装的核心复制所需的两张 UI 图集。
 
-对外源码打包脚本将美术排除。开发者可用 `Prepare-Content.ps1` 从自己安装的核心中准备两张运行图集。
+`HelperIcons.png` 是使用 OpenAI 图像生成工具制作的试作图集。当前菜单不使用它，可选接口和 `-HelperIconsPath` 参数仍保留。来源与布局见 [HelperIcons.md](HelperIcons.md)。
 
-`HelperIcons.png` 是此前通过 OpenAI 图像生成工具制作的 4×3 试作菜单图集，没有使用虫娘模组的美术，不自动纳入代码 MIT。2026-11-13 菜单已恢复线上版，当前界面不使用此图集；本地素材和可选接口保留。设计记录见 [HelperIcons.md](HelperIcons.md)。素材准备脚本仍支持 `-HelperIconsPath`，恢复后的菜单不依赖此参数。
+入门示例通过路径引用 RimWorld 的灯具、角色和床，仓库只提供配置，不包含游戏贴图。
 
-示例 XML 按路径引用游戏自带灯具贴图，角色与床也使用游戏已有内容。开发目录中的示例包仅包含配置。
-
-RimWorld、Harmony、AlienRace、Roslyn 和 Mono.Cecil 使用各自权利人的许可证。开发者自行安装并向脚本提供路径。验证目录中的游戏副本、反编译审查文件和本地工具路径应排除在对外源码包之外。
+RimWorld、Harmony、AlienRace、Roslyn 和 Mono.Cecil 遵循各自许可证，由开发者自行安装。

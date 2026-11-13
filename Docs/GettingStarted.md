@@ -2,7 +2,7 @@
 
 新开发推荐先读[自主帮手教程](HelperDevelopment.md)。下文的生成器创建旧式人类型模板，便于保留原有接入流程；创建 Animal 帮手请复制帮手示例。
 
-适合第一次写 RimWorld 模组、愿意编辑少量 XML 的开发者。先用原版人类外观完成迎新，再做自己的毛茸茸邻居。第一阶段无需写 C#；核心仍需编译一次并准备素材。
+这个教程使用原版人类外观模板。先编译核心、准备素材，再修改 XML 并在游戏里测试迎新，无需编写 C#。
 
 ## 0. 打开正确的目录与终端
 
@@ -18,7 +18,7 @@ git --version
 dotnet --list-sdks                           # SDK 路线应至少列出一个版本
 ```
 
-若版本号为 5，请运行 `pwsh` 切换到 PowerShell 7。若下载的是 ZIP、当前目录没有 `.git`，先运行 `git init -b main`，仓库检查与源码打包工具才可工作。这只初始化本地记录，不会上传。
+若版本号为 5，请运行 `pwsh` 切换到 PowerShell 7。若下载的是 ZIP、当前目录没有 `.git`，先运行 `git init -b main`，仓库检查与源码打包工具才可工作。初始化不会上传文件。
 
 ## 1. 找到游戏与依赖
 
@@ -43,7 +43,7 @@ Test-Path "$gameRoot/RimWorldWin64_Data/Managed/Assembly-CSharp.dll"
 ./NeighborCourtyardsFramework/Prepare-Content.ps1 -InstalledCoreRoot $installedCore
 ```
 
-成功时显示以 `Prepared runtime atlases` 开头的提示。它复制必要的两张 UI 图集，不复制已安装 DLL；来源中存在旧试作的 HelperIcons 时也会复制，但当前菜单不使用它。没有自己的核心运行素材时，这一步还不能完成；公开源码包没有附带这些美术，不是解压即玩的模组包。
+成功时显示以 `Prepared runtime atlases` 开头的提示。它复制必要的两张 UI 图集，不复制已安装 DLL；来源中存在旧试作的 HelperIcons 时也会复制，但当前菜单不使用它。源码包不含这些美术，需先安装工坊核心取得图集。
 
 ## 2. 编译核心
 

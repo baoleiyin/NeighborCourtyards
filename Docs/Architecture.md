@@ -1,4 +1,4 @@
-# 架构与公共能力地图
+# 项目结构
 
 核心不按名字加载某一个种族 DLL。它读取 Def 与 Pawn 上的助手组件，扩展通过 XML 注册内容，需要种族专有行为时再实现适配器。
 
@@ -10,9 +10,9 @@
 | 可选家庭模块 `NeighborCourtyards.Family` | 幼体外观接入与年龄床位规则 | 做幼体、家庭或专用年龄床时 |
 | 种族扩展 | race、PawnKind、岗位配置、素材、渲染树和专用行为 | 开发自己的邻居时主要在这里工作 |
 
-绒绒帮手在第三层：XML 接入家务与核心通用图集渲染器，素材与动画帧归种族所有，无需新增种族 C#。旧人类型绒绒仍保留 AtlasRendering.cs 以兼容旧定义。两种模式都没有复制核心迎新 AI。详见[帮手开发](HelperDevelopment.md)。
+绒绒帮手在第三层：XML 接入家务与核心通用图集渲染器，素材与动画帧归种族所有，无需新增种族 C#。旧人类型绒绒仍保留 AtlasRendering.cs 以兼容旧定义。详见[帮手开发](HelperDevelopment.md)。
 
-## 一次迎新的关系
+## 迎新配置的引用关系
 
 ```text
 迎新建筑 CompProperties_Courtyard.species
@@ -22,7 +22,7 @@
       → roles / naming / adapterClass
 ```
 
-迎新点检查人口、食物、床和安全条件，生成角色并调用外观配置。所有成员成功安置、扣餐后才调用 `OnWelcomed`。外观配置失败会清理未完成的迎新；完成回调失败会记录错误并保留已提交入住。精确语义见[公共 API](../NeighborCourtyardsFramework/Docs/PublicApi.md)。
+迎新点检查人口、食物、床和安全条件，生成角色并调用外观配置。所有成员成功安置、扣餐后才调用 `OnWelcomed`。外观配置失败会清理未完成的迎新；完成回调失败会记录错误并保留已提交入住。回调说明见[公共 API](../NeighborCourtyardsFramework/Docs/PublicApi.md)。
 
 ## 按功能定位源码
 
