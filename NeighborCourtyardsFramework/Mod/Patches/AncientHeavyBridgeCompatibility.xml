@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Some 1.7 installations expose TerrainDefOf.AncientHeavyBridge while
+       their Odyssey data only defines HeavyBridge. Supply a real foundation
+       only in that case; an existing official/mod definition takes priority. -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/TerrainDef[defName="HeavyBridge" and not(../TerrainDef[defName="AncientHeavyBridge"])]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs</xpath>
+      <value>
+        <TerrainDef ParentName="BridgeBase">
+          <defName>AncientHeavyBridge</defName>
+          <label>远古重型桥梁</label>
+          <description>古老的金属桥梁，可支撑重型建筑。</description>
+          <texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
+          <bridgePropsPath>Terrain/Misc/HeavyBridgeProps</bridgePropsPath>
+          <spaceBridgePropsPath>Terrain/Misc/HeavyBridgeSpaceProps</spaceBridgePropsPath>
+          <uiIconPath>Terrain/Misc/HeavyBridge_MenuIcon</uiIconPath>
+          <color>(0.5, 0.5, 0.5)</color>
+          <affordances>
+            <li>Light</li>
+            <li>Medium</li>
+            <li>Heavy</li>
+            <li>Walkable</li>
+          </affordances>
+          <constructEffect>ConstructMetal</constructEffect>
+          <statBases>
+            <WorkToBuild>2500</WorkToBuild>
+            <MarketValue>0</MarketValue>
+          </statBases>
+          <costList><Steel>14</Steel></costList>
+          <destroyOnBombDamageThreshold>45</destroyOnBombDamageThreshold>
+          <designationCategory Inherit="False" IsNull="True" />
+          <autoRebuildable>false</autoRebuildable>
+        </TerrainDef>
+      </value>
+    </match>
+  </Operation>
+</Patch>

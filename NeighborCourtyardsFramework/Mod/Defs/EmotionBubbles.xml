@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <NeighborCourtyards.EmotionBubbleDef>
+    <defName>NC_BubbleHappy</defName><label>开心</label>
+    <trigger>MoodHigh</trigger><threshold>0.78</threshold><priority>10</priority>
+    <durationTicks>150</durationTicks><cooldownTicks>2400</cooldownTicks>
+    <texture>CourtyardUI/EmotionIcons</texture><uvRect>(0.051432292,0.536132812,0.250651042,0.364257812)</uvRect>
+  </NeighborCourtyards.EmotionBubbleDef>
+  <NeighborCourtyards.EmotionBubbleDef>
+    <defName>NC_BubbleContentMeal</defName><label>满足</label>
+    <trigger>AfterMeal</trigger><threshold>0.75</threshold><priority>25</priority>
+    <durationTicks>150</durationTicks><cooldownTicks>1800</cooldownTicks>
+    <texture>CourtyardUI/EmotionIcons</texture><uvRect>(0.374348958,0.541015625,0.251953125,0.322265625)</uvRect>
+  </NeighborCourtyards.EmotionBubbleDef>
+  <NeighborCourtyards.EmotionBubbleDef>
+    <defName>NC_BubbleContentJoy</defName><label>满足</label>
+    <trigger>JoySatisfied</trigger><threshold>0.75</threshold><priority>25</priority>
+    <durationTicks>150</durationTicks><cooldownTicks>1800</cooldownTicks>
+    <texture>CourtyardUI/EmotionIcons</texture><uvRect>(0.374348958,0.541015625,0.251953125,0.322265625)</uvRect>
+  </NeighborCourtyards.EmotionBubbleDef>
+  <NeighborCourtyards.EmotionBubbleDef>
+    <defName>NC_BubbleCurious</defName><label>好奇</label>
+    <trigger>Signal</trigger><threshold>0.75</threshold><priority>20</priority>
+    <durationTicks>120</durationTicks><cooldownTicks>1800</cooldownTicks>
+    <texture>CourtyardUI/EmotionIcons</texture><uvRect>(0.740885417,0.525390625,0.182291667,0.381835938)</uvRect>
+    <signal>curious</signal>
+  </NeighborCourtyards.EmotionBubbleDef>
+  <NeighborCourtyards.EmotionBubbleDef>
+    <defName>NC_BubbleLow</defName><label>低落</label>
+    <trigger>MoodLow</trigger><threshold>0.3</threshold><priority>40</priority>
+    <durationTicks>180</durationTicks><cooldownTicks>2400</cooldownTicks>
+    <texture>CourtyardUI/EmotionIcons</texture><uvRect>(0.053385417,0.088867188,0.258463542,0.371093750)</uvRect>
+  </NeighborCourtyards.EmotionBubbleDef>
+  <NeighborCourtyards.EmotionBubbleDef>
+    <defName>NC_BubbleHungry</defName><label>饿了</label>
+    <trigger>FoodLow</trigger><threshold>0.25</threshold><priority>60</priority>
+    <durationTicks>180</durationTicks><cooldownTicks>2400</cooldownTicks>
+    <texture>CourtyardUI/EmotionIcons</texture><uvRect>(0.373697917,0.091796875,0.252604167,0.346679688)</uvRect>
+  </NeighborCourtyards.EmotionBubbleDef>
+  <NeighborCourtyards.EmotionBubbleDef>
+    <defName>NC_BubbleTired</defName><label>困了</label>
+    <trigger>RestLow</trigger><threshold>0.25</threshold><priority>50</priority>
+    <durationTicks>180</durationTicks><cooldownTicks>2400</cooldownTicks>
+    <texture>CourtyardUI/EmotionIcons</texture><uvRect>(0.744140625,0.098632812,0.204427083,0.352539062)</uvRect>
+  </NeighborCourtyards.EmotionBubbleDef>
+</Defs>

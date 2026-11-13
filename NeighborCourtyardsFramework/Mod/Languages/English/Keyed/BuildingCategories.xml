@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <NC_BuildingHome>Beds</NC_BuildingHome>
+  <NC_BuildingTables>Tables</NC_BuildingTables>
+  <NC_BuildingSeats>Seating</NC_BuildingSeats>
+  <NC_BuildingKitchen>Kitchen</NC_BuildingKitchen>
+  <NC_BuildingChildPlay>Child play</NC_BuildingChildPlay>
+  <NC_BuildingAnimalWelcome>Animal arrival</NC_BuildingAnimalWelcome>
+  <NC_BuildingAnimalRest>Animal beds</NC_BuildingAnimalRest>
+  <NC_BuildingAnimalCare>Animal care</NC_BuildingAnimalCare>
+  <NC_BuildingStorage>Storage</NC_BuildingStorage>
+  <NC_BuildingLighting>Lighting</NC_BuildingLighting>
+  <NC_BuildingFloor>Floors</NC_BuildingFloor>
+  <NC_BuildingMedical>Medical</NC_BuildingMedical>
+  <NC_BuildingFurniture>Furniture</NC_BuildingFurniture>
+  <NC_BuildingProduction>Production</NC_BuildingProduction>
+  <NC_BuildingConstruction>Structure</NC_BuildingConstruction>
+  <NC_BuildingAnimals>Animals</NC_BuildingAnimals>
+</LanguageData>

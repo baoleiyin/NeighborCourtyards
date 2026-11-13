@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnRenderTreeDef>
+    <defName>NCFZ_RenderTree</defName>
+    <root Class="PawnRenderNodeProperties_Parent">
+      <tagDef>Root</tagDef>
+      <children>
+        <li Class="FuzzyNeighbor.AtlasNodeProperties">
+          <debugLabel>Furry body</debugLabel>
+          <tagDef>Body</tagDef>
+          <skipFlag>Body</skipFlag>
+          <workerClass>PawnRenderNodeWorker_Body</workerClass>
+          <texPath>FuzzyNeighbor/Atlas</texPath>
+          <atlasRow>0</atlasRow>
+          <meshSize>(1,1.5)</meshSize>
+          <useRottenColor>true</useRottenColor>
+          <rotDrawMode>Fresh, Rotting, Dessicated</rotDrawMode>
+          <children>
+            <li Class="PawnRenderNodeProperties_Parent">
+              <tagDef>ApparelBody</tagDef>
+              <baseLayer>20</baseLayer>
+            </li>
+          </children>
+        </li>
+        <li Class="FuzzyNeighbor.AtlasNodeProperties">
+          <debugLabel>Furry head</debugLabel>
+          <tagDef>Head</tagDef>
+          <skipFlag>Head</skipFlag>
+          <workerClass>PawnRenderNodeWorker_Head</workerClass>
+          <texPath>FuzzyNeighbor/Atlas</texPath>
+          <atlasRow>1</atlasRow>
+          <meshSize>(0.8,1.2)</meshSize>
+          <baseLayer>50</baseLayer>
+          <useRottenColor>true</useRottenColor>
+          <rotDrawMode>Fresh, Rotting, Dessicated</rotDrawMode>
+          <children>
+            <li Class="PawnRenderNodeProperties_Parent">
+              <tagDef>ApparelHead</tagDef>
+              <baseLayer>70</baseLayer>
+            </li>
+          </children>
+        </li>
+      </children>
+    </root>
+  </PawnRenderTreeDef>
+</Defs>

@@ -1,0 +1,13 @@
+<LanguageData>
+  <NC_AddCamp>添加营地</NC_AddCamp>
+  <NC_AllCamps>全部营地</NC_AllCamps>
+  <NC_CampCount>{0} 处营地</NC_CampCount>
+  <NC_CareCount>{0} 位需要照料</NC_CareCount>
+  <NC_ReferenceMenu>资料与记录</NC_ReferenceMenu>
+  <NC_RosterCount>{0} 位邻居</NC_RosterCount>
+  <NC_RosterTab>邻居</NC_RosterTab>
+  <NC_WorkCycleHint>点击工作格切换：关闭 → 开启 → 优先</NC_WorkCycleHint>
+  <NC_WorkOffShort>关闭</NC_WorkOffShort>
+  <NC_WorkOnShort>开启</NC_WorkOnShort>
+  <NC_WorkPriorityShort>优先</NC_WorkPriorityShort>
+</LanguageData>

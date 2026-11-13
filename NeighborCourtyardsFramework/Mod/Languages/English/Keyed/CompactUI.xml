@@ -1,0 +1,13 @@
+<LanguageData>
+  <NC_AddCamp>Add camp</NC_AddCamp>
+  <NC_AllCamps>All camps</NC_AllCamps>
+  <NC_CampCount>Camps · {0}</NC_CampCount>
+  <NC_CareCount>{0} need care</NC_CareCount>
+  <NC_ReferenceMenu>Reference</NC_ReferenceMenu>
+  <NC_RosterCount>{0} neighbors</NC_RosterCount>
+  <NC_RosterTab>Neighbors</NC_RosterTab>
+  <NC_WorkCycleHint>Click a work cell: Off → On → Preferred</NC_WorkCycleHint>
+  <NC_WorkOffShort>Off</NC_WorkOffShort>
+  <NC_WorkOnShort>On</NC_WorkOnShort>
+  <NC_WorkPriorityShort>Preferred</NC_WorkPriorityShort>
+</LanguageData>

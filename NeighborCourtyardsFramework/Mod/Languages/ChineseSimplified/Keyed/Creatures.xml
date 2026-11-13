@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <NC_CreatureTab>生物</NC_CreatureTab>
+  <NC_CreatureAllSources>全部拓展</NC_CreatureAllSources>
+  <NC_CreatureAllKinds>全部种类</NC_CreatureAllKinds>
+  <NC_CreatureNone>暂无拓展生物</NC_CreatureNone>
+  <NC_CreatureNotFound>未找到生物</NC_CreatureNotFound>
+  <NC_CreatureMapCount>本地图 {0} 只</NC_CreatureMapCount>
+  <NC_CreatureInfo>资料</NC_CreatureInfo>
+  <NC_CreatureOnMap>当前地图</NC_CreatureOnMap>
+  <NC_CreatureNoResidents>暂无符合条件的生物</NC_CreatureNoResidents>
+  <NC_CreatureScopeAll>全部归属</NC_CreatureScopeAll>
+  <NC_CreatureScopeColony>殖民地</NC_CreatureScopeColony>
+  <NC_CreatureScopeWild>野生</NC_CreatureScopeWild>
+  <NC_CreatureScopeOther>其他派系</NC_CreatureScopeOther>
+  <NC_CreatureHealth>健康 {0}</NC_CreatureHealth>
+  <NC_CreatureFood>饱食 {0}</NC_CreatureFood>
+  <NC_CreatureRest>休息 {0}</NC_CreatureRest>
+  <NC_CreatureBed>窝棚：{0}</NC_CreatureBed>
+  <NC_CreatureNoBed>未分配</NC_CreatureNoBed>
+  <NC_CreatureIdentity>{0} · {1} 岁 · {2}</NC_CreatureIdentity>
+  <NC_CreatureFemale>雌</NC_CreatureFemale>
+  <NC_CreatureMale>雄</NC_CreatureMale>
+  <NC_CreatureNoGender>无性别</NC_CreatureNoGender>
+  <NC_AnimalWelcomeUnavailable>迎新窝不可用</NC_AnimalWelcomeUnavailable>
+  <NC_AnimalWelcomePaused>已暂停迎接</NC_AnimalWelcomePaused>
+  <NC_AnimalWelcomePrimary>由本地图第一座迎新窝接待</NC_AnimalWelcomePrimary>
+  <NC_AnimalWelcomeLimit>已达到迎接数量：{0}</NC_AnimalWelcomeLimit>
+  <NC_AnimalWelcomeNoBed>没有空睡位</NC_AnimalWelcomeNoBed>
+  <NC_AnimalWelcomeUnsafeBed>睡位不安全</NC_AnimalWelcomeUnsafeBed>
+  <NC_AnimalWelcomeFood>需要{0} ×{1}（附近6格）</NC_AnimalWelcomeFood>
+  <NC_AnimalWelcomeArrived>{0}来到了小院</NC_AnimalWelcomeArrived>
+  <NC_AnimalWelcomeProgress>迎接：{0}</NC_AnimalWelcomeProgress>
+  <NC_AnimalWelcomePopulation>现有{0}：{1} / {2}</NC_AnimalWelcomePopulation>
+  <NC_AnimalWelcomeToggle>迎接动物</NC_AnimalWelcomeToggle>
+  <NC_AnimalWelcomeToggleDesc>条件满足时迎接动物。</NC_AnimalWelcomeToggleDesc>
+  <NC_AnimalWelcomeGender>迎接性别：{0}</NC_AnimalWelcomeGender>
+  <NC_AnimalWelcomeBalanced>平衡雌雄</NC_AnimalWelcomeBalanced>
+  <NC_AnimalWelcomeMissing>需要建造{0}</NC_AnimalWelcomeMissing>
+  <NC_AnimalWelcomeCap>数量上限</NC_AnimalWelcomeCap>
+  <NC_AnimalWelcomeSex>迎新性别</NC_AnimalWelcomeSex>
+  <NC_AnimalWelcomePreparation>{0} ×{1} · 空睡位 1</NC_AnimalWelcomePreparation>
+  <NC_AnimalWelcomeWait>{0} / {1} 天</NC_AnimalWelcomeWait>
+  <NC_AnimalWelcomeFacility>迎新设施</NC_AnimalWelcomeFacility>
+  <NC_AnimalWelcomePause>暂停迎新</NC_AnimalWelcomePause>
+  <NC_AnimalWelcomeStart>开始迎新</NC_AnimalWelcomeStart>
+</LanguageData>

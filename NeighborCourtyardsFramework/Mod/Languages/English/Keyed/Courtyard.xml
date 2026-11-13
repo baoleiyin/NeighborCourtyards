@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <NC_NotCollected>Not collected</NC_NotCollected>
+  <NC_ToolInspect>Tool: {0}</NC_ToolInspect>
+  <NC_BedsNeeded>Not enough usable beds for {0} guests</NC_BedsNeeded>
+  <NC_MealsNeeded>Need {1} meals within {0} tiles</NC_MealsNeeded>
+  <NC_AwaitingArrival>Awaiting arrivals</NC_AwaitingArrival>
+  <NC_WelcomeInspect>Welcome: {0}
+Arrival: within {1} d
+Waiting: {2} d
+Residents of this species: {3}/{4}</NC_WelcomeInspect>
+  <NC_RoleToolFactor>Neighborhood work tool: ×{0}</NC_RoleToolFactor>
+  <NC_ToolCarried>Carrying · {0}</NC_ToolCarried>
+  <NC_ToolWaiting>To collect · {0}</NC_ToolWaiting>
+  <NC_ResidentsSummary>{0} residents · {1} adults · {2} made today</NC_ResidentsSummary>
+  <NC_MadeToday>Made today: {0}</NC_MadeToday>
+  <NC_MadeTotal>Made in total: {0}</NC_MadeTotal>
+  <NC_ItemCount>{0}</NC_ItemCount>
+  <NC_WithinDays>Within {0} d</NC_WithinDays>
+  <NC_Days>{0} d</NC_Days>
+  <NC_Recovering>Community recovering · {0} d</NC_Recovering>
+  <NC_InjuryRecovery>Neighbors recovering from injury · {0} d</NC_InjuryRecovery>
+  <NC_GuestsArrived>New arrivals: {0}</NC_GuestsArrived>
+  <NC_PetArrived>{0} has arrived</NC_PetArrived>
+  <NC_PetArrivalTime>Arrives within two days</NC_PetArrivalTime>
+  <NC_PetWelcomeInspect>Welcoming: {0}
+{1}</NC_PetWelcomeInspect>
+  <NC_ListSeparator>, </NC_ListSeparator>
+  <NC_ResearchNeeded>Research required: {0}</NC_ResearchNeeded>
+  <NC_ChooseMaterial>Choose material · {0}</NC_ChooseMaterial>
+  <NC_Growing>Growing up</NC_Growing>
+  <NC_NoHomeLine>
+No welcome point</NC_NoHomeLine>
+  <NC_ShelteringLine>
+Sheltering</NC_ShelteringLine>
+  <NC_RandomGuests>Random visitors</NC_RandomGuests>
+  <NC_SingleGuest>One neighbor</NC_SingleGuest>
+  <NC_Couple>A couple</NC_Couple>
+  <NC_FamilyThree>Family of three</NC_FamilyThree>
+  <NC_FamilyFour>Family of four</NC_FamilyFour>
+  <NC_HomeUnavailable>Welcome point unavailable</NC_HomeUnavailable>
+  <NC_PrimaryHomeBusy>Main welcome point is receiving guests</NC_PrimaryHomeBusy>
+  <NC_WelcomePaused>Welcoming paused</NC_WelcomePaused>
+  <NC_PauseWelcome>Pause arrivals</NC_PauseWelcome>
+  <NC_ResumeWelcome>Resume arrivals</NC_ResumeWelcome>
+  <NC_Sheltering>Sheltering</NC_Sheltering>
+  <NC_NoCapacity>Not enough resident spaces</NC_NoCapacity>
+  <NC_HomeBurning>Welcome point is on fire</NC_HomeBurning>
+  <NC_HomeNoPower>Welcome point has no power</NC_HomeNoPower>
+  <NC_Management>Neighborhood</NC_Management>
+  <NC_Shelter>Take shelter</NC_Shelter>
+  <NC_Welcome>Welcome</NC_Welcome>
+  <NC_Homes>Homes</NC_Homes>
+  <NC_Dining>Dining</NC_Dining>
+  <NC_Workshop>Workshop</NC_Workshop>
+  <NC_Nursery>Nursery</NC_Nursery>
+  <NC_Recreation>Recreation</NC_Recreation>
+  <NC_Structure>Structure</NC_Structure>
+  <NC_Garden>Garden</NC_Garden>
+  <NC_RuleBlocksBuild>Building is not allowed by the current rules</NC_RuleBlocksBuild>
+  <NC_BuildRequirements>Building requirements not met</NC_BuildRequirements>
+  <NC_CannotBuild>Cannot build yet</NC_CannotBuild>
+  <NC_Buildings>Courtyard buildings</NC_Buildings>
+  <NC_SwitchMapHint>Switch to this map to build</NC_SwitchMapHint>
+  <NC_SwitchMap>Switch map</NC_SwitchMap>
+  <NC_All>All</NC_All>
+  <NC_Search>Find</NC_Search>
+  <NC_NoBuildings>No buildings</NC_NoBuildings>
+  <NC_FloorLine>
+Floor</NC_FloorLine>
+  <NC_ViewRequirements>View requirements</NC_ViewRequirements>
+  <NC_Build>Build</NC_Build>
+  <NC_Locked>Locked</NC_Locked>
+  <NC_NeedsCare>Needs care</NC_NeedsCare>
+  <NC_Sleeping>Sleeping</NC_Sleeping>
+  <NC_Resting>Resting</NC_Resting>
+  <NC_NoToolNeeded>No tool needed</NC_NoToolNeeded>
+  <NC_Title>Neighbor Courtyards</NC_Title>
+  <NC_NoMap>No map</NC_NoMap>
+  <NC_People>People</NC_People>
+  <NC_Output>Output</NC_Output>
+  <NC_BuildTab>Build</NC_BuildTab>
+  <NC_NoColony>No colony</NC_NoColony>
+  <NC_AllSpecies>All species</NC_AllSpecies>
+  <NC_NoPeople>No helpers yet</NC_NoPeople>
+  <NC_ToolReady>Tool ready</NC_ToolReady>
+  <NC_ToolToCollect>Collect tool</NC_ToolToCollect>
+  <NC_NoPeopleFound>No helpers found</NC_NoPeopleFound>
+  <NC_Adult>Adult</NC_Adult>
+  <NC_Baby>Baby</NC_Baby>
+  <NC_Child>Child</NC_Child>
+  <NC_Locate>Locate</NC_Locate>
+  <NC_CannotLocate>Unavailable</NC_CannotLocate>
+  <NC_Role>Role</NC_Role>
+  <NC_Tool>Tool</NC_Tool>
+  <NC_Task>Task</NC_Task>
+  <NC_TodayOutput>Made today</NC_TodayOutput>
+  <NC_NoOutput>Nothing made yet</NC_NoOutput>
+  <NC_Today>Today</NC_Today>
+  <NC_Week>7 days</NC_Week>
+  <NC_Total>All time</NC_Total>
+  <NC_NoSpecies>No species</NC_NoSpecies>
+  <NC_NoWelcomePoint>No welcome point</NC_NoWelcomePoint>
+  <NC_WelcomeOnHold>On hold</NC_WelcomeOnHold>
+  <NC_Welcoming>Welcoming</NC_Welcoming>
+  <NC_Residents>Residents</NC_Residents>
+  <NC_Arrival>Arrivals</NC_Arrival>
+  <NC_ArrivalWindow>Arrival window</NC_ArrivalWindow>
+  <NC_Preparation>Supplies</NC_Preparation>
+  <NC_BedAndMeal>One bed and meal per guest</NC_BedAndMeal>
+  <NC_FillRoles>Fill open roles</NC_FillRoles>
+  <NC_Pets>Pets</NC_Pets>
+  <NC_PetsPossible>May accompany guests</NC_PetsPossible>
+  <NC_None>None</NC_None>
+  <NC_Waited>Waiting</NC_Waited>
+  <NC_EndShelter>End shelter</NC_EndShelter>
+  <NC_NestUnavailable>Nest unavailable</NC_NestUnavailable>
+  <NC_NeedsWelcomePoint>Needs a welcome point</NC_NeedsWelcomePoint>
+  <NC_UnsafeNest>Nest is unsafe</NC_UnsafeNest>
+  <NC_FullNest>Nest is full</NC_FullNest>
+  <NC_UnreachableNest>Cannot reach nest</NC_UnreachableNest>
+  <NC_PetNeedsFood>Needs food within 3 tiles</NC_PetNeedsFood>
+  <NC_NearbyHostiles>Hostiles nearby</NC_NearbyHostiles>
+  <NC_ToxicFallout>Toxic fallout</NC_ToxicFallout>
+  <NC_NeighborNeedsRescue>A neighbor needs rescue</NC_NeighborNeedsRescue>
+  <NC_NeighborsHungry>Neighbors need food</NC_NeighborsHungry>
+  <NC_NearbyFire>Fire nearby</NC_NearbyFire>
+  <NC_UnsafeTemperature>Unsafe temperature for arrivals</NC_UnsafeTemperature>
+  <NC_NoAssignedHome>No home assigned</NC_NoAssignedHome>
+  <NC_DefaultBabyTitle>Neighborhood baby</NC_DefaultBabyTitle>
+  <NC_DefaultChildTitle>Neighborhood child</NC_DefaultChildTitle>
+</LanguageData>

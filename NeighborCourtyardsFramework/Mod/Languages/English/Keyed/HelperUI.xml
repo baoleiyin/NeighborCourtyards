@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <NC_CampPause>Pause</NC_CampPause>
+  <NC_CampResume>Welcome</NC_CampResume>
+  <NC_CampShelter>Shelter</NC_CampShelter>
+  <NC_CampEndShelter>Leave shelter</NC_CampEndShelter>
+  <NC_CampAreas>Areas</NC_CampAreas>
+  <NC_OverviewTab>Overview</NC_OverviewTab>
+  <NC_ServicesTab>Work</NC_ServicesTab>
+  <NC_CampTab>Camp</NC_CampTab>
+  <NC_HelperBadge>Independent helper</NC_HelperBadge>
+  <NC_HelperSummary>{0} neighbors · {1} independent helpers</NC_HelperSummary>
+  <NC_CampCapacity>Residents {0} / {1} · {2} nearby meals</NC_CampCapacity>
+  <NC_CampFirstStep>Prepare a welcome point, beds and meals in Camp.</NC_CampFirstStep>
+  <NC_HelperBedHint>Uses animal sleeping places</NC_HelperBedHint>
+  <NC_BedReady>Bed available</NC_BedReady>
+  <NC_BedMissing>Spare bed needed</NC_BedMissing>
+  <NC_WorkPrefer>Prefer</NC_WorkPrefer>
+  <NC_WorkPreferred>Preferred</NC_WorkPreferred>
+  <NC_HelperFood>Food</NC_HelperFood>
+  <NC_HelperRest>Rest</NC_HelperRest>
+  <NC_HelperHome>Bed</NC_HelperHome>
+</LanguageData>

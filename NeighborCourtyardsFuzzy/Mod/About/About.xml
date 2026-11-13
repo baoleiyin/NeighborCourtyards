@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>奇妙邻里 · 绒绒族</name>
+  <author>70</author>
+  <packageId>local.neighborcourtyards.fuzzy</packageId>
+  <modVersion>0.2.0</modVersion>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>local.neighborcourtyards.core</packageId>
+      <displayName>奇妙邻里 · 核心框架</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3822167069</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>local.neighborcourtyards.core</li>
+  </loadAfter>
+  <description>毛茸茸的绒绒邻居。包含家务岗位、名字池、迎新灯及原生四向外观。需要奇妙邻里核心开发版 0.8.0-dev.1。</description>
+</ModMetaData>

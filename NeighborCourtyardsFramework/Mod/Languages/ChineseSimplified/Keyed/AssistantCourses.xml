@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <NC_CourseProgress>{0}：{1}/{2} 剂</NC_CourseProgress>
+  <NC_CourseIneligible>不符合此疗程的种族或年龄条件</NC_CourseIneligible>
+  <NC_CourseComplete>疗程已完成</NC_CourseComplete>
+  <NC_CourseResearch>需要研究：{0}</NC_CourseResearch>
+  <NC_CourseWait>下次服用：{0}后</NC_CourseWait>
+  <NC_CourseTakeBlocked>无法服用：{0}</NC_CourseTakeBlocked>
+</LanguageData>

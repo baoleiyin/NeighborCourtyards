@@ -1,0 +1,26 @@
+# Local outputs, game copies and private machine paths
+**/Validation/run-*/
+**/Validation/package-check-*/
+**/Validation/Build/
+**/Validation/Baseline/
+**/Validation/game/
+**/Validation/PackageResult.txt
+**/Dist/
+/Local/
+**/bin/
+**/obj/
+*.dll
+*.pdb
+*.log
+*.rsp
+*.rws
+# Runtime artwork is prepared locally; see asset scope documents.
+**/Mod/Textures/
+**/Mod/About/Preview.png
+.vs/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Machine-local playtest launcher
+/启动绒绒帮手试玩.cmd

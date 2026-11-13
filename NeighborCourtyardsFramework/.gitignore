@@ -1,0 +1,12 @@
+/Validation/Baseline/
+/Validation/Build/
+/Validation/game/
+/Validation/run-*/
+/Validation/*.txt
+/Mod/Assemblies/*.dll
+/Mod/Assemblies/*.pdb
+/Mod/Textures/
+/Mod/About/Preview.png
+/Examples/*/Assemblies/*.dll
+/Examples/*/Assemblies/*.pdb
+/Dist/

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <NC_BookTab>百科</NC_BookTab>
+  <NC_BookPeoples>种族与分系</NC_BookPeoples>
+  <NC_BookMaterials>材料来源</NC_BookMaterials>
+  <NC_BookEmpty>没有找到相关条目</NC_BookEmpty>
+  <NC_BookSources>来源</NC_BookSources>
+  <NC_BookHarvest>采收 {0} · 基础产量 {1}</NC_BookHarvest>
+  <NC_BookMine>开采 {0} · 基础产量 {1}</NC_BookMine>
+  <NC_BookShear>为 {0} 剪毛 · 每 {2} 天 {1} 份，需成年且资源长满</NC_BookShear>
+  <NC_BookMilk>采集 {0} 的产物 · 每 {2} 天 {1} 份，需成年且资源积满</NC_BookMilk>
+  <NC_BookButcher>屠宰 {0} 后获得</NC_BookButcher>
+  <NC_BookAt>工作台：{0}</NC_BookAt>
+  <NC_BookInputs>原料：{0}</NC_BookInputs>
+  <NC_BookOutput>产物：{0}</NC_BookOutput>
+  <NC_BookResearch>研究：{0}</NC_BookResearch>
+  <NC_BookTool>随身工具：{0}</NC_BookTool>
+  <NC_BookNoSource>暂无来源记录。</NC_BookNoSource>
+<NC_BookNutrition>{1}（营养需求 {0}）</NC_BookNutrition><NC_BookAlternatives>（共 {0} 种可选）</NC_BookAlternatives></LanguageData>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <NC_WorkSettings>工作设置</NC_WorkSettings>
+  <NC_OptionalWorkHint>默认开启特向工作或相关技能大于 {0} 级的工作。其他工作可手动开启；手动开关会保留。</NC_OptionalWorkHint>
+  <NC_AreaSettings>区域设置</NC_AreaSettings>
+  <NC_EmptyArea>区域没有可用格子，请先划定区域。</NC_EmptyArea>
+  <NC_DailyArea>活动区域</NC_DailyArea>
+  <NC_ShelterArea>避难区域</NC_ShelterArea>
+  <NC_Unrestricted>不限制</NC_Unrestricted>
+  <NC_KeepNativeArea>使用各自区域</NC_KeepNativeArea>
+  <NC_UseDailyArea>沿用活动区域</NC_UseDailyArea>
+  <NC_AreaHint>活动区域限制日常任务。开启避难后前往避难区域；结束后恢复活动区域。请将避难区域设在连通的安全室内。</NC_AreaHint>
+  <NC_DrawAreas>管理区域</NC_DrawAreas>
+  <NC_FilterOff>无热情技能筛选：关闭</NC_FilterOff>
+  <NC_FilterBelow>禁用全部相关技能低于 {0} 级且无热情的工作</NC_FilterBelow>
+  <NC_WorkDisabled>已禁用</NC_WorkDisabled>
+  <NC_WorkIncapable>无法从事</NC_WorkIncapable>
+  <NC_WorkFiltered>已筛除</NC_WorkFiltered>
+  <NC_WorkEnabled>已启用</NC_WorkEnabled>
+  <NC_ShelterUnreachable>{0}：避难区域没有可安全到达的格子。</NC_ShelterUnreachable>
+</LanguageData>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Keep the race and profile references paired when adapting an existing race. -->
+  <ThingDef ParentName="Human">
+    <defName>NCS_NeighborRace</defName>
+    <label>示例邻居</label>
+    <description>用于验证邻里接入的示例种族。</description>
+    <comps>
+      <li Class="NeighborCourtyards.CompProperties_Assistant">
+        <species>NCS_Species</species>
+      </li>
+    </comps>
+  </ThingDef>
+  <PawnKindDef ParentName="BasePlayerPawnKind">
+    <defName>NCS_Neighbor</defName>
+    <label>示例邻居</label>
+    <race>NCS_NeighborRace</race>
+    <defaultFactionDef>PlayerColony</defaultFactionDef>
+    <minGenerationAge>20</minGenerationAge>
+    <maxGenerationAge>35</maxGenerationAge>
+    <initialResistanceRange>0~0</initialResistanceRange>
+    <showInDebugSpawner>true</showInDebugSpawner>
+  </PawnKindDef>
+  <NeighborCourtyards.AssistantRoleDef>
+    <defName>NCS_Helper</defName>
+    <label>家务助手</label>
+    <primaryWork>Cleaning</primaryWork>
+    <services>清洁与搬运。</services>
+    <work>
+      <li><workType>Cleaning</workType><priority>2</priority></li>
+      <li><workType>Hauling</workType><priority>3</priority></li>
+    </work>
+  </NeighborCourtyards.AssistantRoleDef>
+  <NeighborCourtyards.AssistantNameSetDef>
+    <defName>NCS_Names</defName>
+    <sharedChance>0</sharedChance>
+    <pools>
+      <li>
+        <key>default</key>
+        <requireTwoChineseCharacters>false</requireTwoChineseCharacters>
+        <names><li>Hazel</li><li>Clover</li><li>松果</li><li>绒绒</li></names>
+      </li>
+    </pools>
+  </NeighborCourtyards.AssistantNameSetDef>
+  <NeighborCourtyards.AssistantSpeciesDef>
+    <defName>NCS_Species</defName>
+    <label>示例邻居</label>
+    <race>NCS_NeighborRace</race>
+    <pawnKind>NCS_Neighbor</pawnKind>
+    <roles><li>NCS_Helper</li></roles>
+    <naming>NCS_Names</naming>
+    <minAge>20</minAge>
+    <maxAge>35</maxAge>
+    <arrivalTicks>120000</arrivalTicks>
+    <mealCost>1</mealCost>
+    <defaultPopulationLimit>6</defaultPopulationLimit>
+  </NeighborCourtyards.AssistantSpeciesDef>
+  <ThingDef ParentName="NC_WelcomeBase">
+    <defName>NCS_WelcomeLamp</defName>
+    <label>示例迎新灯</label>
+    <description>提供空床和附近的餐食，等待示例邻居到来。</description>
+    <graphicData>
+      <texPath>Things/Building/Furniture/LampStanding</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <comps><li Class="NeighborCourtyards.CompProperties_Courtyard"><species>NCS_Species</species></li></comps>
+  </ThingDef>
+  <NeighborCourtyards.CourtyardBuildingSetDef>
+    <defName>NCS_Buildings</defName>
+    <species>NCS_Species</species>
+    <groups><li><use>Welcome</use><buildings><li>NCS_WelcomeLamp</li></buildings></li></groups>
+  </NeighborCourtyards.CourtyardBuildingSetDef>
+  <NeighborCourtyards.CourtyardArticleDef>
+    <defName>NCS_Introduction</defName>
+    <label>认识示例邻居</label>
+    <description>这个扩展展示种族、岗位、迎新、命名、建筑目录与百科的共同配置方式。示例邻居使用原版床。</description>
+    <species>NCS_Species</species>
+    <kind>Species</kind>
+  </NeighborCourtyards.CourtyardArticleDef>
+</Defs>

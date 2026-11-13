@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <NC_CampPause>暂停迎新</NC_CampPause>
+  <NC_CampResume>继续迎新</NC_CampResume>
+  <NC_CampShelter>邻里避难</NC_CampShelter>
+  <NC_CampEndShelter>结束避难</NC_CampEndShelter>
+  <NC_CampAreas>区域设置</NC_CampAreas>
+  <NC_OverviewTab>总览</NC_OverviewTab>
+  <NC_ServicesTab>工作</NC_ServicesTab>
+  <NC_CampTab>营地</NC_CampTab>
+  <NC_HelperBadge>自主帮手</NC_HelperBadge>
+  <NC_HelperSummary>{0} 位邻居 · {1} 位自主帮手</NC_HelperSummary>
+  <NC_CampCapacity>居民 {0} / {1} · 附近餐食 {2} 份</NC_CampCapacity>
+  <NC_CampFirstStep>先在营地准备迎新点、睡位与餐食。</NC_CampFirstStep>
+  <NC_HelperBedHint>使用动物睡位</NC_HelperBedHint>
+  <NC_BedReady>空床可用</NC_BedReady>
+  <NC_BedMissing>需要空床</NC_BedMissing>
+  <NC_WorkPrefer>优先此项</NC_WorkPrefer>
+  <NC_WorkPreferred>优先工作</NC_WorkPreferred>
+  <NC_HelperFood>饱食</NC_HelperFood>
+  <NC_HelperRest>休息</NC_HelperRest>
+  <NC_HelperHome>睡位</NC_HelperHome>
+</LanguageData>

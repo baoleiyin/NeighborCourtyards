@@ -1,0 +1,26 @@
+[
+  {
+    "baselineMembers": 691,
+    "removed": [],
+    "added": [
+      "FIELD System.Boolean NeighborCourtyards.AssistantNamePool::requireTwoChineseCharacters static=False readonly=False constant=",
+      "METHOD System.Boolean NeighborCourtyards.AssistantNames::IsNameText(System.String) static=True virtual=False final=False names=name",
+      "METHOD System.Collections.Generic.IEnumerable`1<System.String> NeighborCourtyards.CompProperties_Assistant::ConfigErrors(Verse.ThingDef) static=False virtual=True final=False names=parentDef",
+      "METHOD System.Collections.Generic.IEnumerable`1<System.String> NeighborCourtyards.CompProperties_Courtyard::ConfigErrors(Verse.ThingDef) static=False virtual=True final=False names=parentDef",
+      "FIELD System.Single NeighborCourtyards.AssistantSpeciesDef::childMinAge static=False readonly=False constant=",
+      "FIELD System.Single NeighborCourtyards.AssistantSpeciesDef::childMaxAge static=False readonly=False constant=",
+      "METHOD System.Void NeighborCourtyards.AssistantSpeciesAdapter::OnWelcomed(Verse.Pawn,NeighborCourtyards.CompCourtyard) static=False virtual=True final=False names=pawn,courtyard",
+      "TYPE NeighborCourtyards.NeighborFramework base=System.Object abstract=True sealed=True",
+      "METHOD System.Int32 NeighborCourtyards.NeighborFramework::get_ContractVersion() static=True virtual=False final=False names=",
+      "FIELD System.String NeighborCourtyards.NeighborFramework::Version static=True readonly=False constant=0.7.0-dev.1",
+      "PROPERTY System.Int32 NeighborCourtyards.NeighborFramework::ContractVersion()"
+    ],
+    "assembly": "NeighborCourtyards.Core.dll"
+  },
+  {
+    "baselineMembers": 54,
+    "removed": [],
+    "added": [],
+    "assembly": "NeighborCourtyards.Family.dll"
+  }
+]

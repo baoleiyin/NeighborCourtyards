@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <NC_ArrivalLetterLabel>New neighbors have arrived</NC_ArrivalLetterLabel>
+  <NC_ArrivalLetterBody>New {0} neighbors have arrived: {1}. They are heading to the welcome point.
+
+{2}</NC_ArrivalLetterBody>
+  <NC_ArrivalLetterPet>Companion: {0} ({1})</NC_ArrivalLetterPet>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <NC_CourseProgress>{0}: {1}/{2} doses</NC_CourseProgress>
+  <NC_CourseIneligible>Species or age requirements not met</NC_CourseIneligible>
+  <NC_CourseComplete>Course complete</NC_CourseComplete>
+  <NC_CourseResearch>Research required: {0}</NC_CourseResearch>
+  <NC_CourseWait>Next dose in {0}</NC_CourseWait>
+  <NC_CourseTakeBlocked>Cannot take: {0}</NC_CourseTakeBlocked>
+</LanguageData>

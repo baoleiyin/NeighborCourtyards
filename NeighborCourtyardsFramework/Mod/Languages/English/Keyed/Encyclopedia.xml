@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <NC_BookTab>Guide</NC_BookTab>
+  <NC_BookPeoples>Peoples &amp; lineages</NC_BookPeoples>
+  <NC_BookMaterials>Materials</NC_BookMaterials>
+  <NC_BookEmpty>No matching entries</NC_BookEmpty>
+  <NC_BookSources>Sources</NC_BookSources>
+  <NC_BookHarvest>Harvest {0} · base yield {1}</NC_BookHarvest>
+  <NC_BookMine>Mine {0} · base yield {1}</NC_BookMine>
+  <NC_BookShear>Shear {0} · {1} every {2} days when adult and fully grown</NC_BookShear>
+  <NC_BookMilk>Gather from {0} · {1} every {2} days when adult and ready</NC_BookMilk>
+  <NC_BookButcher>Obtained by butchering {0}</NC_BookButcher>
+  <NC_BookAt>Workbenches: {0}</NC_BookAt>
+  <NC_BookInputs>Ingredients: {0}</NC_BookInputs>
+  <NC_BookOutput>Produces: {0}</NC_BookOutput>
+  <NC_BookResearch>Research: {0}</NC_BookResearch>
+  <NC_BookTool>Tool: {0}</NC_BookTool>
+  <NC_BookNoSource>No recorded source.</NC_BookNoSource>
+<NC_BookNutrition>{1} ({0} nutrition)</NC_BookNutrition><NC_BookAlternatives>({0} alternatives)</NC_BookAlternatives></LanguageData>

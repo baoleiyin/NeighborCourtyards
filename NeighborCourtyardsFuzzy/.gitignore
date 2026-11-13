@@ -1,0 +1,6 @@
+Validation/run-*/
+Validation/Build/
+Validation/Node.txt
+Validation/HeadWorker.txt
+Validation/BodyWorker.txt
+Dist/

@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <NC_NotCollected>未领取</NC_NotCollected>
+  <NC_ToolInspect>工具：{0}</NC_ToolInspect>
+  <NC_BedsNeeded>可用空床不足 · {0}人</NC_BedsNeeded>
+  <NC_MealsNeeded>熟食不足 · {0}格内 ≥ {1}份</NC_MealsNeeded>
+  <NC_AwaitingArrival>等待入住</NC_AwaitingArrival>
+  <NC_WelcomeInspect>迎新：{0}
+入住：{1}天内随机
+已等：{2}天
+本族居民：{3}/{4}</NC_WelcomeInspect>
+  <NC_RoleToolFactor>邻里岗位工具：×{0}</NC_RoleToolFactor>
+  <NC_ToolCarried>已携带 · {0}</NC_ToolCarried>
+  <NC_ToolWaiting>待领取 · {0}</NC_ToolWaiting>
+  <NC_ResidentsSummary>居民 {0}    ·    成人 {1}    ·    今日产出 {2}</NC_ResidentsSummary>
+  <NC_MadeToday>今日产出 {0} 件</NC_MadeToday>
+  <NC_MadeTotal>累计产出 {0} 件</NC_MadeTotal>
+  <NC_ItemCount>{0} 件</NC_ItemCount>
+  <NC_WithinDays>{0} 天内随机</NC_WithinDays>
+  <NC_Days>{0} 天</NC_Days>
+  <NC_Recovering>邻里休整 · {0}天</NC_Recovering>
+  <NC_InjuryRecovery>邻里受伤 · {0}天</NC_InjuryRecovery>
+  <NC_GuestsArrived>{0}来了</NC_GuestsArrived>
+  <NC_PetArrived>{0}来了</NC_PetArrived>
+  <NC_PetArrivalTime>两天内随机到来</NC_PetArrivalTime>
+  <NC_PetWelcomeInspect>迎宠：{0}
+{1}</NC_PetWelcomeInspect>
+  <NC_ListSeparator>、</NC_ListSeparator>
+  <NC_ResearchNeeded>需研究：{0}</NC_ResearchNeeded>
+  <NC_ChooseMaterial>材料可选 · {0}</NC_ChooseMaterial>
+  <NC_Growing>成长中</NC_Growing>
+  <NC_NoHomeLine>
+无迎新处</NC_NoHomeLine>
+  <NC_ShelteringLine>
+避难中</NC_ShelteringLine>
+  <NC_RandomGuests>随机来访</NC_RandomGuests>
+  <NC_SingleGuest>一位邻居</NC_SingleGuest>
+  <NC_Couple>一对伴侣</NC_Couple>
+  <NC_FamilyThree>三口之家</NC_FamilyThree>
+  <NC_FamilyFour>四口之家</NC_FamilyFour>
+  <NC_HomeUnavailable>迎新处不可用</NC_HomeUnavailable>
+  <NC_PrimaryHomeBusy>主迎新处接待中</NC_PrimaryHomeBusy>
+  <NC_WelcomePaused>已暂停迎新</NC_WelcomePaused>
+  <NC_PauseWelcome>暂停迎新</NC_PauseWelcome>
+  <NC_ResumeWelcome>继续迎新</NC_ResumeWelcome>
+  <NC_Sheltering>避难中</NC_Sheltering>
+  <NC_NoCapacity>空余名额不足</NC_NoCapacity>
+  <NC_HomeBurning>迎新处起火</NC_HomeBurning>
+  <NC_HomeNoPower>迎新处未通电</NC_HomeNoPower>
+  <NC_Management>邻里管理</NC_Management>
+  <NC_Shelter>邻里避难</NC_Shelter>
+  <NC_Welcome>迎新</NC_Welcome>
+  <NC_Homes>居住</NC_Homes>
+  <NC_Dining>餐饮</NC_Dining>
+  <NC_Workshop>工坊</NC_Workshop>
+  <NC_Nursery>育儿</NC_Nursery>
+  <NC_Recreation>娱乐</NC_Recreation>
+  <NC_Structure>结构</NC_Structure>
+  <NC_Garden>庭院</NC_Garden>
+  <NC_RuleBlocksBuild>当前规则不允许建造</NC_RuleBlocksBuild>
+  <NC_BuildRequirements>建造条件未满足</NC_BuildRequirements>
+  <NC_CannotBuild>暂不可建造</NC_CannotBuild>
+  <NC_Buildings>邻里建筑</NC_Buildings>
+  <NC_SwitchMapHint>请切换地图</NC_SwitchMapHint>
+  <NC_SwitchMap>切换地图</NC_SwitchMap>
+  <NC_All>全部</NC_All>
+  <NC_Search>查找</NC_Search>
+  <NC_NoBuildings>暂无建筑</NC_NoBuildings>
+  <NC_FloorLine>
+地板</NC_FloorLine>
+  <NC_ViewRequirements>查看建造条件</NC_ViewRequirements>
+  <NC_Build>建造</NC_Build>
+  <NC_Locked>尚未解锁</NC_Locked>
+  <NC_NeedsCare>需要照料</NC_NeedsCare>
+  <NC_Sleeping>正在睡觉</NC_Sleeping>
+  <NC_Resting>自在休息</NC_Resting>
+  <NC_NoToolNeeded>无需工具</NC_NoToolNeeded>
+  <NC_Title>奇妙邻里</NC_Title>
+  <NC_NoMap>暂无地图</NC_NoMap>
+  <NC_People>助手</NC_People>
+  <NC_Output>产出</NC_Output>
+  <NC_BuildTab>建筑</NC_BuildTab>
+  <NC_NoColony>暂无聚落</NC_NoColony>
+  <NC_AllSpecies>全部种族</NC_AllSpecies>
+  <NC_NoPeople>暂无助手</NC_NoPeople>
+  <NC_ToolReady>工具就绪</NC_ToolReady>
+  <NC_ToolToCollect>工具待领取</NC_ToolToCollect>
+  <NC_NoPeopleFound>未找到助手</NC_NoPeopleFound>
+  <NC_Adult>成人</NC_Adult>
+  <NC_Baby>婴儿</NC_Baby>
+  <NC_Child>孩子</NC_Child>
+  <NC_Locate>定位</NC_Locate>
+  <NC_CannotLocate>暂不可定位</NC_CannotLocate>
+  <NC_Role>岗位</NC_Role>
+  <NC_Tool>工具</NC_Tool>
+  <NC_Task>工作</NC_Task>
+  <NC_TodayOutput>今日产出</NC_TodayOutput>
+  <NC_NoOutput>暂无产出</NC_NoOutput>
+  <NC_Today>今日</NC_Today>
+  <NC_Week>近 7 天</NC_Week>
+  <NC_Total>累计</NC_Total>
+  <NC_NoSpecies>暂无种族</NC_NoSpecies>
+  <NC_NoWelcomePoint>暂无迎新处</NC_NoWelcomePoint>
+  <NC_WelcomeOnHold>暂缓迎新</NC_WelcomeOnHold>
+  <NC_Welcoming>迎新中</NC_Welcoming>
+  <NC_Residents>居民</NC_Residents>
+  <NC_Arrival>入住</NC_Arrival>
+  <NC_ArrivalWindow>时限</NC_ArrivalWindow>
+  <NC_Preparation>准备</NC_Preparation>
+  <NC_BedAndMeal>每人一床一餐</NC_BedAndMeal>
+  <NC_FillRoles>自动补缺</NC_FillRoles>
+  <NC_Pets>随行宠物</NC_Pets>
+  <NC_PetsPossible>可能随行</NC_PetsPossible>
+  <NC_None>暂无</NC_None>
+  <NC_Waited>已等</NC_Waited>
+  <NC_EndShelter>结束避难</NC_EndShelter>
+  <NC_NestUnavailable>窝不可用</NC_NestUnavailable>
+  <NC_NeedsWelcomePoint>需要迎新处</NC_NeedsWelcomePoint>
+  <NC_UnsafeNest>窝不安全</NC_UnsafeNest>
+  <NC_FullNest>窝已满</NC_FullNest>
+  <NC_UnreachableNest>窝不可达</NC_UnreachableNest>
+  <NC_PetNeedsFood>缺少食物 · 3格内</NC_PetNeedsFood>
+  <NC_NearbyHostiles>附近有敌情</NC_NearbyHostiles>
+  <NC_ToxicFallout>毒尘未散</NC_ToxicFallout>
+  <NC_NeighborNeedsRescue>邻里待救助</NC_NeighborNeedsRescue>
+  <NC_NeighborsHungry>邻里缺食</NC_NeighborsHungry>
+  <NC_NearbyFire>附近有火情</NC_NearbyFire>
+  <NC_UnsafeTemperature>气温不宜入住</NC_UnsafeTemperature>
+  <NC_NoAssignedHome>暂未归家</NC_NoAssignedHome>
+  <NC_DefaultBabyTitle>邻里宝宝</NC_DefaultBabyTitle>
+  <NC_DefaultChildTitle>邻里孩子</NC_DefaultChildTitle>
+</LanguageData>

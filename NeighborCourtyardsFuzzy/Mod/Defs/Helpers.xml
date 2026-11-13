@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- New IDs preserve all existing humanlike furry neighbors in old saves. -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>NCFZ_HelperRace</defName>
+    <label>绒绒帮手</label>
+    <description>住在营地里的毛茸茸帮手。自主清洁和搬运，需要食物与动物睡位，不作为殖民者管理。</description>
+    <statBases><MoveSpeed>4.2</MoveSpeed><MarketValue>500</MarketValue><ComfyTemperatureMin>-5</ComfyTemperatureMin><ComfyTemperatureMax>35</ComfyTemperatureMax><FilthRate>0</FilthRate><Wildness>0</Wildness><CarryingCapacity>60</CarryingCapacity></statBases>
+    <race>
+      <body>Human</body><intelligence>Animal</intelligence><thinkTreeMain>Animal</thinkTreeMain><thinkTreeConstant>AnimalConstant</thinkTreeConstant>
+      <renderTree>NCFZ_HelperRenderTree</renderTree><foodType>VegetarianRoughAnimal, Meat, AnimalProduct, Processed</foodType>
+      <baseBodySize>0.55</baseBodySize><baseHungerRate>0.7</baseHungerRate><lifeExpectancy>80</lifeExpectancy><roamMtbDays>-1</roamMtbDays>
+      <trainability>None</trainability><nameOnTameChance>1</nameOnTameChance><petness>0</petness><manhunterOnDamageChance>0</manhunterOnDamageChance>
+      <lifeStageAges><li><def>AnimalAdult</def><minAge>0</minAge></li></lifeStageAges>
+    </race>
+    <tools><li><label>爪子</label><capacities><li>Scratch</li></capacities><power>5</power><cooldownTime>2</cooldownTime><linkedBodyPartsGroup>Hands</linkedBodyPartsGroup></li></tools>
+    <comps><li Class="NeighborCourtyards.CompProperties_Assistant"><species>NCFZ_HelperSpecies</species></li></comps>
+  </ThingDef>
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>NCFZ_HelperPawn</defName><label>绒绒帮手</label><race>NCFZ_HelperRace</race><combatPower>20</combatPower>
+    <minGenerationAge>20</minGenerationAge><maxGenerationAge>35</maxGenerationAge>
+    <lifeStages><li><bodyGraphicData><texPath>FuzzyNeighbor/Atlas</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>(1,1)</drawSize></bodyGraphicData></li></lifeStages>
+  </PawnKindDef>
+  <NeighborCourtyards.AssistantSpeciesDef>
+    <defName>NCFZ_HelperSpecies</defName><label>绒绒帮手</label><helperMode>true</helperMode><race>NCFZ_HelperRace</race><pawnKind>NCFZ_HelperPawn</pawnKind>
+    <roles><li>NCFZ_Helper</li></roles><naming>NCFZ_Names</naming><minAge>20</minAge><maxAge>35</maxAge><arrivalTicks>120000</arrivalTicks><mealCost>1</mealCost><defaultPopulationLimit>4</defaultPopulationLimit>
+  </NeighborCourtyards.AssistantSpeciesDef>
+  <ThingDef ParentName="NC_WelcomeBase">
+    <defName>NCFZ_HelperWelcomeLamp</defName><label>绒绒营地灯</label><description>准备未禁止的餐食和空闲的动物睡位，邀请一位绒绒帮手加入营地。</description>
+    <graphicData><texPath>Things/Building/Furniture/LampStanding</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>(1,1)</drawSize></graphicData>
+    <comps><li Class="NeighborCourtyards.CompProperties_Courtyard"><species>NCFZ_HelperSpecies</species></li></comps>
+  </ThingDef>
+  <NeighborCourtyards.CourtyardBuildingSetDef><defName>NCFZ_HelperBuildings</defName><species>NCFZ_HelperSpecies</species><groups><li><use>Welcome</use><buildings><li>NCFZ_HelperWelcomeLamp</li></buildings></li></groups></NeighborCourtyards.CourtyardBuildingSetDef>
+  <NeighborCourtyards.CourtyardArticleDef><defName>NCFZ_HelperGuide</defName><label>与绒绒帮手相处</label><description>帮手在营地食宿，自主提供清洁与搬运服务。需要动物睡位，可在邻里手账切换工作、设置区域并进入避难。</description><species>NCFZ_HelperSpecies</species><kind>Species</kind></NeighborCourtyards.CourtyardArticleDef>
+  <PawnRenderTreeDef>
+    <defName>NCFZ_HelperRenderTree</defName>
+    <root Class="PawnRenderNodeProperties_Parent"><tagDef>Root</tagDef><children>
+      <li Class="NeighborCourtyards.NeighborSpriteProperties"><debugLabel>Fuzzy helper body</debugLabel><tagDef>Body</tagDef><workerClass>PawnRenderNodeWorker_Body</workerClass><texPath>FuzzyNeighbor/Atlas</texPath><south>0</south><east>1</east><north>2</north><meshSize>(1,1.5)</meshSize><useRottenColor>true</useRottenColor></li>
+      <li Class="NeighborCourtyards.NeighborSpriteProperties"><debugLabel>Fuzzy helper head</debugLabel><tagDef>Head</tagDef><workerClass>NeighborCourtyards.NeighborHeadWorker</workerClass><texPath>FuzzyNeighbor/Atlas</texPath><south>3</south><east>4</east><north>5</north><meshSize>(0.8,1.2)</meshSize><baseLayer>50</baseLayer><headOffset>(0,0,0.3)</headOffset><useRottenColor>true</useRottenColor></li>
+    </children></root>
+  </PawnRenderTreeDef>
+</Defs>

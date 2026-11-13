@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThinkTreeDef>
+    <defName>NC_HelperShelter</defName>
+    <insertTag>Animal_PreMain</insertTag>
+    <insertPriority>100</insertPriority>
+    <thinkRoot Class="NeighborCourtyards.JobGiver_HelperShelter" />
+  </ThinkTreeDef>
+  <ThinkTreeDef>
+    <defName>NC_HelperService</defName>
+    <insertTag>Animal_PreWander</insertTag>
+    <insertPriority>100</insertPriority>
+    <thinkRoot Class="NeighborCourtyards.JobGiver_HelperService" />
+  </ThinkTreeDef>
+</Defs>

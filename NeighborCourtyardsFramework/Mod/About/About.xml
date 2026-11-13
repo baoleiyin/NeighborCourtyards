@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>奇妙邻里 · 核心框架（开发版）</name>
+  <author>70</author>
+  <packageId>local.neighborcourtyards.core</packageId>
+  <modVersion>0.8.0</modVersion>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+  <incompatibleWith>
+    <li>local.neighborcourtyards</li>
+  </incompatibleWith>
+  <description>奇妙邻里 · 核心框架
+邻里手账 · 迎新 · 产出 · 建筑 · 百科 · 生物
+
+邻里日常
+居民、岗位、工具与近况。
+空床、餐食，等新邻居来。
+
+院子里的东西
+迎新 · 家具 · 生产 · 育儿 · 娱乐 · 动物 · 营建
+材料、来源与各族图鉴。
+
+需要
+RimWorld 1.7 · Harmony
+搭配种族或动物扩展使用。生物页支持按扩展、名称与归属筛选，查看健康、饱食、休息、窝棚和当前活动，并定位到地图。
+简体中文 / English
+
+Neighbor Courtyards · Core
+Residents · Arrivals · Production · Buildings · Encyclopedia · Creatures
+
+Around the courtyard
+Neighbours, roles, tools and daily work.
+Spare beds, shared meals, new arrivals.
+
+Make room
+Welcome · Furniture · Production · Childcare · Recreation · Animals · Construction
+Materials, sources and species.
+
+Requires
+RimWorld 1.7 · Harmony
+Add a species or animal expansion. Browse creatures by expansion, name and affiliation; inspect health, food, rest, beds and activity, or locate them on the map.
+English / Simplified Chinese
+
+0.6.7：支持种族选择开放全部工作及保存手动开关；喵喵族使用岗位或技能大于6级的默认规则。其他种族保留原工作规则。修复情绪气泡静态纹理初始化警告。
+
+提供婴幼童外观与专用床的基础支持；种族扩展可保留孩子成长获得的特性、技能和日程。</description>
+</ModMetaData>

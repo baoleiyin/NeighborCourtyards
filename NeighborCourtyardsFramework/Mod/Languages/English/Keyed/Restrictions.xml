@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <NC_WorkSettings>Work settings</NC_WorkSettings>
+  <NC_OptionalWorkHint>Role work or work with a relevant skill above {0} is on by default. Enable other work manually; your choices are saved.</NC_OptionalWorkHint>
+  <NC_AreaSettings>Area settings</NC_AreaSettings>
+  <NC_EmptyArea>The area has no usable cells. Draw an area first.</NC_EmptyArea>
+  <NC_DailyArea>Activity area</NC_DailyArea>
+  <NC_ShelterArea>Shelter area</NC_ShelterArea>
+  <NC_Unrestricted>Unrestricted</NC_Unrestricted>
+  <NC_KeepNativeArea>Individual areas</NC_KeepNativeArea>
+  <NC_UseDailyArea>Use activity area</NC_UseDailyArea>
+  <NC_AreaHint>The activity area limits daily tasks. Sheltering moves residents to their shelter area; ending it restores their activity area. Choose a connected, safe indoor area.</NC_AreaHint>
+  <NC_DrawAreas>Manage areas</NC_DrawAreas>
+  <NC_FilterOff>No-passion skill filter: off</NC_FilterOff>
+  <NC_FilterBelow>Disable work with all skills below {0} and no passion</NC_FilterBelow>
+  <NC_WorkDisabled>Disabled</NC_WorkDisabled>
+  <NC_WorkIncapable>Incapable</NC_WorkIncapable>
+  <NC_WorkFiltered>Filtered</NC_WorkFiltered>
+  <NC_WorkEnabled>Enabled</NC_WorkEnabled>
+  <NC_ShelterUnreachable>{0}: no safely reachable cell in the shelter area.</NC_ShelterUnreachable>
+</LanguageData>

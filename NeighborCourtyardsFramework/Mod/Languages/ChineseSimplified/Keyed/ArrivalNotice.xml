@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <NC_ArrivalLetterLabel>新邻居到了</NC_ArrivalLetterLabel>
+  <NC_ArrivalLetterBody>{0}的新邻居到了：{1}。他们正在前往迎新处。
+
+{2}</NC_ArrivalLetterBody>
+  <NC_ArrivalLetterPet>随行宠物：{0}（{1}）</NC_ArrivalLetterPet>
+</LanguageData>

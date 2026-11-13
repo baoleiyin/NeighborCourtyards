@@ -1,0 +1,37 @@
+{
+  "version": "0.7.0-dev.1",
+  "runtime": "RimWorld 1.7.4998 Waylith/.NET",
+  "publicApiDeclarations": 745,
+  "assemblies": [
+    {
+      "sha256": "2DF1444D471982D78CEB739361526E44B17AD3B51A0C8F5F5C0602416F5B0ADE",
+      "name": "NeighborCourtyards.Core.dll"
+    },
+    {
+      "sha256": "2E44ACA01CFD8DBEE9A30AD3C6598B80C0C568D446B549C1BED273542048C05B",
+      "name": "NeighborCourtyards.Family.dll"
+    }
+  ],
+  "runs": [
+    {
+      "directory": "run-20261105-235108-bcd5cd",
+      "baselineStartupErrors": 0,
+      "result": "PASS checks=57 errors=0"
+    },
+    {
+      "directory": "run-20261105-235141-df9508",
+      "baselineStartupErrors": 0,
+      "result": "PASS checks=60 errors=0"
+    },
+    {
+      "directory": "run-20261105-235809-e3911d",
+      "baselineStartupErrors": 2,
+      "result": "PASS checks=71 errors=0"
+    },
+    {
+      "directory": "run-20261106-000042-0ac4ec",
+      "baselineStartupErrors": 0,
+      "result": "PASS checks=8 errors=0"
+    }
+  ]
+}

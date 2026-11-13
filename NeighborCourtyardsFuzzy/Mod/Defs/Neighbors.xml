@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Keep the race and profile references paired when adapting an existing race. -->
+  <ThingDef ParentName="Human">
+    <defName>NCFZ_NeighborRace</defName>
+    <label>绒绒族</label>
+    <description>温和的毛茸茸邻居，擅长清洁和搬运。</description>
+    <race><renderTree>NCFZ_RenderTree</renderTree></race>
+    <comps>
+      <li Class="NeighborCourtyards.CompProperties_Assistant">
+        <species>NCFZ_Species</species>
+      </li>
+    </comps>
+  </ThingDef>
+  <PawnKindDef ParentName="BasePlayerPawnKind">
+    <defName>NCFZ_Neighbor</defName>
+    <label>绒绒族</label>
+    <race>NCFZ_NeighborRace</race>
+    <defaultFactionDef>PlayerColony</defaultFactionDef>
+    <minGenerationAge>20</minGenerationAge>
+    <maxGenerationAge>35</maxGenerationAge>
+    <initialResistanceRange>0~0</initialResistanceRange>
+    <apparelRequired><li>Apparel_TribalA</li></apparelRequired>
+    <apparelMoney>0~0</apparelMoney>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <showInDebugSpawner>true</showInDebugSpawner>
+  </PawnKindDef>
+  <NeighborCourtyards.AssistantRoleDef>
+    <defName>NCFZ_Helper</defName>
+    <label>家务助手</label>
+    <primaryWork>Cleaning</primaryWork>
+    <services>清洁与搬运。</services>
+    <work>
+      <li><workType>Cleaning</workType><priority>2</priority></li>
+      <li><workType>Hauling</workType><priority>3</priority></li>
+    </work>
+  </NeighborCourtyards.AssistantRoleDef>
+  <NeighborCourtyards.AssistantNameSetDef>
+    <defName>NCFZ_Names</defName>
+    <sharedChance>0</sharedChance>
+    <pools>
+      <li>
+        <key>default</key>
+        <requireTwoChineseCharacters>false</requireTwoChineseCharacters>
+        <names><li>松团</li><li>绒绒</li><li>栗球</li><li>奶绒</li><li>榛果</li><li>毛豆</li><li>麦团</li><li>暖绒</li></names>
+      </li>
+    </pools>
+  </NeighborCourtyards.AssistantNameSetDef>
+  <NeighborCourtyards.AssistantSpeciesDef>
+    <defName>NCFZ_Species</defName>
+    <label>绒绒族</label>
+    <race>NCFZ_NeighborRace</race>
+    <pawnKind>NCFZ_Neighbor</pawnKind>
+    <roles><li>NCFZ_Helper</li></roles>
+    <naming>NCFZ_Names</naming>
+    <minAge>20</minAge>
+    <maxAge>35</maxAge>
+    <arrivalTicks>120000</arrivalTicks>
+    <mealCost>1</mealCost>
+    <defaultPopulationLimit>4</defaultPopulationLimit>
+    <keepStartingApparel>true</keepStartingApparel>
+  </NeighborCourtyards.AssistantSpeciesDef>
+  <ThingDef ParentName="NC_WelcomeBase">
+    <defName>NCFZ_WelcomeLamp</defName>
+    <label>绒绒迎新灯</label>
+    <description>提供空床和附近的餐食，等待绒绒族到来。</description>
+    <graphicData>
+      <texPath>Things/Building/Furniture/LampStanding</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <comps><li Class="NeighborCourtyards.CompProperties_Courtyard"><species>NCFZ_Species</species></li></comps>
+  </ThingDef>
+  <NeighborCourtyards.CourtyardBuildingSetDef>
+    <defName>NCFZ_Buildings</defName>
+    <species>NCFZ_Species</species>
+    <groups><li><use>Welcome</use><buildings><li>NCFZ_WelcomeLamp</li></buildings></li></groups>
+  </NeighborCourtyards.CourtyardBuildingSetDef>
+  <NeighborCourtyards.CourtyardArticleDef>
+    <defName>NCFZ_Introduction</defName>
+    <label>认识绒绒族</label>
+    <description>绒绒族喜欢温暖整洁的住处，会帮忙打扫与搬运。准备一盏迎新灯、空床和餐食，就有机会迎来一位绒绒邻居。</description>
+    <species>NCFZ_Species</species>
+    <kind>Species</kind>
+  </NeighborCourtyards.CourtyardArticleDef>
+</Defs>

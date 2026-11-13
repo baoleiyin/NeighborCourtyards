@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <MainButtonDef>
+    <defName>NC_Assistants</defName>
+    <label>奇妙邻里</label>
+    <description>邻里手账</description>
+    <tabWindowClass>NeighborCourtyards.MainTabWindow_Assistants</tabWindowClass>
+    <order>48</order>
+  </MainButtonDef>
+  <DesignationCategoryDef>
+    <defName>NC_CourtyardBuildings</defName>
+    <label>奇妙邻里</label>
+    <order>95</order>
+    <specialDesignatorClasses>
+      <li>NeighborCourtyards.Designator_CourtyardCatalog</li>
+    </specialDesignatorClasses>
+  </DesignationCategoryDef>
+</Defs>

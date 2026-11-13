@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>奇妙邻里 · 开发示例</name>
+  <author>70</author>
+  <packageId>local.neighborcourtyards.starter</packageId>
+  <supportedVersions><li>1.7</li></supportedVersions>
+  <modDependencies>
+    <li><packageId>local.neighborcourtyards.core</packageId><displayName>奇妙邻里 · 核心框架</displayName><steamWorkshopUrl>steam://url/CommunityFilePage/3822167069</steamWorkshopUrl></li>
+  </modDependencies>
+  <loadAfter><li>local.neighborcourtyards.core</li></loadAfter>
+  <description>供开发者复制的最小邻居扩展。使用原版人类外观、床和灯贴图。开发时替换为自己的种族外观。需要核心开发版 0.7.0-dev.1。</description>
+</ModMetaData>

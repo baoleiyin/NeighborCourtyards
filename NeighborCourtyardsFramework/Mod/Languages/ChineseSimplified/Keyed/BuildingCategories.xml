@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <NC_BuildingHome>床铺</NC_BuildingHome>
+  <NC_BuildingTables>餐桌</NC_BuildingTables>
+  <NC_BuildingSeats>座椅</NC_BuildingSeats>
+  <NC_BuildingKitchen>厨房</NC_BuildingKitchen>
+  <NC_BuildingChildPlay>童趣</NC_BuildingChildPlay>
+  <NC_BuildingAnimalWelcome>动物迎新</NC_BuildingAnimalWelcome>
+  <NC_BuildingAnimalRest>动物窝床</NC_BuildingAnimalRest>
+  <NC_BuildingAnimalCare>动物照料</NC_BuildingAnimalCare>
+  <NC_BuildingStorage>储物</NC_BuildingStorage>
+  <NC_BuildingLighting>照明</NC_BuildingLighting>
+  <NC_BuildingFloor>地板</NC_BuildingFloor>
+  <NC_BuildingMedical>医疗</NC_BuildingMedical>
+  <NC_BuildingFurniture>家具</NC_BuildingFurniture>
+  <NC_BuildingProduction>生产</NC_BuildingProduction>
+  <NC_BuildingConstruction>营建</NC_BuildingConstruction>
+  <NC_BuildingAnimals>动物</NC_BuildingAnimals>
+</LanguageData>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <NC_CreatureTab>Creatures</NC_CreatureTab>
+  <NC_CreatureAllSources>All expansions</NC_CreatureAllSources>
+  <NC_CreatureAllKinds>All kinds</NC_CreatureAllKinds>
+  <NC_CreatureNone>No expansion creatures</NC_CreatureNone>
+  <NC_CreatureNotFound>No matching creatures</NC_CreatureNotFound>
+  <NC_CreatureMapCount>On this map: {0}</NC_CreatureMapCount>
+  <NC_CreatureInfo>Info</NC_CreatureInfo>
+  <NC_CreatureOnMap>On this map</NC_CreatureOnMap>
+  <NC_CreatureNoResidents>No matching creatures on this map</NC_CreatureNoResidents>
+  <NC_CreatureScopeAll>All affiliations</NC_CreatureScopeAll>
+  <NC_CreatureScopeColony>Colony</NC_CreatureScopeColony>
+  <NC_CreatureScopeWild>Wild</NC_CreatureScopeWild>
+  <NC_CreatureScopeOther>Other factions</NC_CreatureScopeOther>
+  <NC_CreatureHealth>Health {0}</NC_CreatureHealth>
+  <NC_CreatureFood>Food {0}</NC_CreatureFood>
+  <NC_CreatureRest>Rest {0}</NC_CreatureRest>
+  <NC_CreatureBed>Bed: {0}</NC_CreatureBed>
+  <NC_CreatureNoBed>Unassigned</NC_CreatureNoBed>
+  <NC_CreatureIdentity>{0} · {1} years · {2}</NC_CreatureIdentity>
+  <NC_CreatureFemale>Female</NC_CreatureFemale>
+  <NC_CreatureMale>Male</NC_CreatureMale>
+  <NC_CreatureNoGender>No gender</NC_CreatureNoGender>
+  <NC_AnimalWelcomeUnavailable>Welcome nest unavailable</NC_AnimalWelcomeUnavailable>
+  <NC_AnimalWelcomePaused>Arrivals paused</NC_AnimalWelcomePaused>
+  <NC_AnimalWelcomePrimary>The first nest on this map handles arrivals</NC_AnimalWelcomePrimary>
+  <NC_AnimalWelcomeLimit>Arrival limit reached: {0}</NC_AnimalWelcomeLimit>
+  <NC_AnimalWelcomeNoBed>No free sleeping slot</NC_AnimalWelcomeNoBed>
+  <NC_AnimalWelcomeUnsafeBed>Sleeping slot unsafe</NC_AnimalWelcomeUnsafeBed>
+  <NC_AnimalWelcomeFood>Requires {0} ×{1} within 6 cells</NC_AnimalWelcomeFood>
+  <NC_AnimalWelcomeArrived>{0} arrived in the courtyard</NC_AnimalWelcomeArrived>
+  <NC_AnimalWelcomeProgress>Arrivals: {0}</NC_AnimalWelcomeProgress>
+  <NC_AnimalWelcomePopulation>Current {0}: {1} / {2}</NC_AnimalWelcomePopulation>
+  <NC_AnimalWelcomeToggle>Welcome animals</NC_AnimalWelcomeToggle>
+  <NC_AnimalWelcomeToggleDesc>Welcome an animal when requirements are met.</NC_AnimalWelcomeToggleDesc>
+  <NC_AnimalWelcomeGender>Arrival gender: {0}</NC_AnimalWelcomeGender>
+  <NC_AnimalWelcomeBalanced>Balance females and males</NC_AnimalWelcomeBalanced>
+  <NC_AnimalWelcomeMissing>Build {0}</NC_AnimalWelcomeMissing>
+  <NC_AnimalWelcomeCap>Population limit</NC_AnimalWelcomeCap>
+  <NC_AnimalWelcomeSex>Arrival gender</NC_AnimalWelcomeSex>
+  <NC_AnimalWelcomePreparation>{0} ×{1} · 1 free bed slot</NC_AnimalWelcomePreparation>
+  <NC_AnimalWelcomeWait>{0} / {1} days</NC_AnimalWelcomeWait>
+  <NC_AnimalWelcomeFacility>Welcome point</NC_AnimalWelcomeFacility>
+  <NC_AnimalWelcomePause>Pause arrivals</NC_AnimalWelcomePause>
+  <NC_AnimalWelcomeStart>Start arrivals</NC_AnimalWelcomeStart>
+</LanguageData>
